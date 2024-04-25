@@ -1,4 +1,4 @@
-import './NavigationBar.scss'
+import './NavigationBar.css'
 import { useState, useEffect } from 'react'
 
 import { RxHamburgerMenu as OpenMenu } from "react-icons/rx"
@@ -23,10 +23,9 @@ const NavigationBar = () => {
     <>
       <nav className="navBar">
         <div className="leftSection">
-          <a href='https://github.com/KennethOnuorah/Website' target={'_blank'} style={{textDecoration: "none", outline: "none"}}>
+          <a href='#' target={'_blank'} style={{textDecoration: "none", outline: "none"}}>
             <div className='companyLogo'>
-              <img src='/images/globeIcon.png'/>
-              <h1>Company</h1>
+              <img src='/images/logo.png'/>
             </div>
           </a>
             <div className="navBtns">
