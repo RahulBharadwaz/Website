@@ -3,7 +3,7 @@ import { RxHamburgerMenu as OpenMenu } from "react-icons/rx";
 import { CgClose as HideMenu } from "react-icons/cg";
 import "./NavigationBar.css";
 
-const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
+const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupClick, onLogoClick }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -162,8 +162,8 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
       </div>
       <div className="rightSection">
         <div className="accountSection">
-          <button>Login</button>
-          <button>Sign Up</button>
+        <button onClick={onLoginClick}>Login</button>
+          <button onClick={onSignupClick}>Sign Up</button>
         </div>
         <div className="menuSection">
           {menuOpen ? (
