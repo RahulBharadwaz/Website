@@ -94,6 +94,12 @@ a:focus > .companyLogo > h1 {
 .navBtns button:hover, .navBtns button:focus {
   cursor: pointer;
   color: rgb(15, 210, 210);
+  -o-border-radius: 40px;
+  background-color: whitesmoke !important;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
 }
 
 .navDropdown {

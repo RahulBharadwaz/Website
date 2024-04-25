@@ -27,7 +27,7 @@ function App() {
 
   const handleSearch = async () => {
     if (searchTerm) {
-      fetchNews(`everything?q=${searchTerm}`);
+      fetchNews(`everything?q=${searchTerm.trim()}`);
     } else {
       fetchNews("top-headlines?country=in");
     }

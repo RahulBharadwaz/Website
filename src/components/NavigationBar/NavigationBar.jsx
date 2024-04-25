@@ -154,7 +154,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
               </div>
             </div>
           </div>
-          <button>Community</button>
+          <button>college</button>
           <button>Blog</button>
           <button onClick={onNewsClick}>News</button>
           <button onClick={onFeedbackClick}>Feedback</button>
@@ -180,9 +180,10 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
         <div className="sideMenuSiteSections">
           <button>About Us</button>
           <button>Services</button>
-          <button>Community</button>
+          <button>college</button>
           <button>Blog</button>
-          <button>Contact Us</button>
+          <button onClick={onNewsClick}>News</button>
+          <button onClick={onFeedbackClick}>Feedback</button>
         </div>
         <div className="sideMenuContent">
           <div className="sideMenuAccountHeader">
