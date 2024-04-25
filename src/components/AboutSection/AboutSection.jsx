@@ -30,11 +30,11 @@ const AboutSection = () => {
           About Us
         </div>
         <div className="body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        The "Students Hub" consolidates diverse study resources, including textbooks, materials, and tools across subjects and academic levels. It promotes collaboration through forums and study groups, fostering knowledge exchange and peer support. Additionally, it facilitates access to academic advisors, creating a supportive environment to enhance students' academic journeys.
         </div>
-        <div className="button">
+        {/* <div className="button">
           <button>Read More</button>
-        </div>
+        </div> */}
       </div>
     </section>
   )

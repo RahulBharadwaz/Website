@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footerContainer">
         <div className="footerColumn">
           <div className="columnTitle">
-            Company
+            Student Hub
             <hr className='columnTitleHR'/>
           </div>
           <div className="columnText">
@@ -68,17 +68,17 @@ const Footer = () => {
           </div>
           <div className="columnText">
             <div className="columnTextItem">
-              Phone: +1 (123) 456-7890
+              Phone: +91 9989203699
             </div>
             <div className="columnTextItem">
-              Email: <u><a href='#'>support.company@gmail.com</a></u>
+              Email: <u><a href='#'>StudentHub@gmail.com</a></u>
             </div>
             <div className="columnTextItem">
-              Address: 321 Main Street, <br/>Austin, TX 12345
+              Address: Lucknow,UP
             </div>
           </div>
         </div>
-        <div className="footerColumn">
+        {/* <div className="footerColumn">
           <div className="columnTitle">
             Sign Up For Our Newsletter
             <hr className='columnTitleHR'/>
@@ -89,7 +89,7 @@ const Footer = () => {
               <input type="submit" value="Sign Up" className='newsletterEmailSubmit'/>
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   )

@@ -20,14 +20,14 @@ const WelcomeSection = () => {
     <section className="welcomeSection">
       <div className="welcomeText">
         <div className="motto">
-          Changing the Future, for the Better.
+          {/* Changing the Future, for the Better. */}Empowering Minds, Connecting Futures
         </div>
         <div className="mottoSubtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Students Hub: Where learning thrives amidst diverse resources, collaborative forums, and a vibrant community, empowering students for academic excellence and success.
         </div>
         <div className="welcomeButtons">
           <button>Learn More</button>
-          <button>Watch Intro Video</button>
+          {/* <button>Watch Intro Video</button> */}
         </div>
       </div>
       <div className="imageSection">

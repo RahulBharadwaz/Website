@@ -19,13 +19,13 @@ const ReviewsSection = () => {
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              David Wilson
+              Rajesh
             </div>
             <div className="reviewerLocation">
-              San Francisco, CA
+              Lucknow,UP
             </div>
             <div className="reviewerReview">
-              <em>"I have been a customer of this company for years and have always been extremely satisfied with their products and services. The staff is friendly and helpful, and they always go above and beyond to make sure I have everything I need. Highly recommend!"</em>
+              <em>The range of resources available is impressive. Whether I need news updates or academic materials, I can always rely on this website for valuable information</em>
             </div>
           </div>
         </div>
@@ -35,13 +35,13 @@ const ReviewsSection = () => {
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Sarah Lee
+              Shivi
             </div>
             <div className="reviewerLocation">
-              Seattle, WA
+              Jaipur,RJ
             </div>
             <div className="reviewerReview">
-              <em>"I have been a customer of this company for years and have always been extremely satisfied with their products and services. The staff is friendly and helpful, and they always go above and beyond to make sure I have everything I need. Highly recommend!"</em>
+              <em>"The anonymous messaging feature is a game-changer! It allows me to express myself freely and engage in meaningful conversations without the fear of judgment"</em>
             </div>
           </div>
         </div>
@@ -51,13 +51,13 @@ const ReviewsSection = () => {
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Frank Jones
+              Pooran
             </div>
             <div className="reviewerLocation">
               Houston, TX
             </div>
             <div className="reviewerReview">
-              <em>"I have had nothing but positive experiences with this company. They have always been prompt and efficient, and the products I have purchased from them have exceeded my expectations. I will definitely be a repeat customer!"</em>
+              <em>"Navigating this website is a pleasure. The user-friendly design makes it easy to find what I need, enhancing my overall browsing experience"</em>
             </div>
           </div>
         </div>
@@ -67,13 +67,13 @@ const ReviewsSection = () => {
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Samantha Smith
+              Samantha 
             </div>
             <div className="reviewerLocation">
-              Austin, TX
+              Hyderabad,TS
             </div>
             <div className="reviewerReview">
-              <em>"I was blown away by the level of service I received from this company. They were extremely knowledgeable and helped me find exactly what I was looking for. I will definitely be using them again in the future."</em>
+              <em>I appreciate the platform's commitment to user feedback. Being able to share my thoughts and suggestions helps shape the website's evolution, making it more tailored to users' needs</em>
             </div>
           </div>
         </div>

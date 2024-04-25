@@ -22,7 +22,7 @@ hr {
 .leftSection {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 2.1rem;
 }
 
 .companyLogo {
@@ -38,6 +38,8 @@ hr {
   height: max-content;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: gray;
+  font-size: larger;
 }
 
 .companyLogo:hover {

@@ -27,7 +27,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
           style={{ textDecoration: "none", outline: "none" }}
         >
           <div className="companyLogo">
-            <img src="/images/logo.png" alt="Company Logo" />
+            <img src="/images/logo.png" alt="Company Logo" />Home
           </div>
         </a>
         <div className="navBtns">
@@ -155,7 +155,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLogoClick }) => {
             </div>
           </div>
           <button>college</button>
-          <button>Blog</button>
+          {/* <button>Blog</button> */}
           <button onClick={onNewsClick}>News</button>
           <button onClick={onFeedbackClick}>Feedback</button>
         </div>

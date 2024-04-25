@@ -32,10 +32,10 @@ const ChooseUsSection = () => {
             <Chart size={'100px'} color={'rgb(127, 127, 127)'}/>
           </div>
           <div className="cardTitle">
-            Management & Marketing
+          Comprehensive Resources
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Our website is a hub of knowledge, offering diverse resources from news updates to academic materials, supporting every aspect of your educational journey.
           </div>
         </div>
         <div className="card">
@@ -43,10 +43,10 @@ const ChooseUsSection = () => {
             <Service size={'100px'} color={'rgb(127, 127, 127)'}/>
           </div>
           <div className="cardTitle">
-            High Quality Service
+          User-Centric Design
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          Enjoy a seamless experience with our intuitive and user-friendly website design, making it easy to navigate and access information effortlessly.
           </div>
         </div>
         <div className="card">
@@ -57,7 +57,7 @@ const ChooseUsSection = () => {
             A Strong, Growing Community
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+          Engage in open conversations through anonymous messaging, promoting honesty and freedom of expression. Connect with others safely, sharing thoughts and ideas without revealing your identity
           </div>
         </div>
         <div className="card">
@@ -65,10 +65,10 @@ const ChooseUsSection = () => {
             <Support size={'100px'} color={'rgb(127, 127, 127)'}/>
           </div>
           <div className="cardTitle">
-            24/7 Customer Support
+          Informed Decision-Making
           </div>
           <div className="cardDesc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Make informed choices about your education and career with detailed profiles of colleges and universities, providing valuable insights for your academic journey.
           </div>
         </div>
       </div>

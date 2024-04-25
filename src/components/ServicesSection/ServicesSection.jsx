@@ -23,7 +23,8 @@ const ServicesSection = () => {
           Services
         </div>
         <div className="mottoSubtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+Stay informed with our comprehensive news section covering education and global updates. Access a diverse range of study materials and tools to enhance your academic journey. Share your valuable feedback through our dedicated platform to help us continually improve our services. Explore detailed profiles of colleges and universities, making informed decisions about your educational path. Connect with a vibrant community of learners and educators. Join us in shaping the future of education together.
         </div>
         <div className="serviceButtons">
           <button>Learn More</button>
