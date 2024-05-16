@@ -78,18 +78,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className="footerColumn">
-          <div className="columnTitle">
-            Sign Up For Our Newsletter
-            <hr className='columnTitleHR'/>
-          </div>
-          <div className="columnText">
-            <span>
-              <input type="text" placeholder='Enter email...' className='newsletterEmailInput'/>
-              <input type="submit" value="Sign Up" className='newsletterEmailSubmit'/>
-            </span>
-          </div>
-        </div> */}
       </div>
     </footer>
   )

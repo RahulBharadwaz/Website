@@ -15,7 +15,7 @@ const ReviewsSection = () => {
       <div className="allReviews">
         <div className="review">
           <div className="profilePic">
-            <img src="/images/profPic1.png" />
+            <img src="/images/Arjun.jpeg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
@@ -31,7 +31,7 @@ const ReviewsSection = () => {
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="/images/profPic2.png" />
+            <img src="/images/Tripti.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
@@ -47,11 +47,11 @@ const ReviewsSection = () => {
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="/images/profPic3.png" />
+            <img src="/images/Priyanka.jpeg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Pooran
+              Priyanka
             </div>
             <div className="reviewerLocation">
               Houston, TX
@@ -63,11 +63,11 @@ const ReviewsSection = () => {
         </div>
         <div className="review">
           <div className="profilePic">
-            <img src="/images/profPic4.png" />
+            <img src="/images/Prudhvi.jpg" />
           </div>
           <div className="reviewText">
             <div className="reviewerName">
-              Samantha 
+              Prudhvi
             </div>
             <div className="reviewerLocation">
               Hyderabad,TS

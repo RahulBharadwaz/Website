@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FeedbackForm.css"; // Import CSS file
+import "./FeedbackForm.css";
 
 const FeedbackForm = () => {
   const [formData, setFormData] = useState({
@@ -20,11 +20,26 @@ const FeedbackForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Add your submit logic here
+  //   console.log(formData);
+  // };
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your submit logic here
-    console.log(formData);
+    try {
+      const response = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log("Feedback submitted successfully:", data);
+    } catch (error) {
+      console.error("Error submitting feedback:", error);
+    }
   };
+  
 
   return (
     <div className="container">

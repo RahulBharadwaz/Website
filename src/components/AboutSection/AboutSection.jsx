@@ -32,9 +32,6 @@ const AboutSection = () => {
         <div className="body">
         The "Students Hub" consolidates diverse study resources, including textbooks, materials, and tools across subjects and academic levels. It promotes collaboration through forums and study groups, fostering knowledge exchange and peer support. Additionally, it facilitates access to academic advisors, creating a supportive environment to enhance students' academic journeys.
         </div>
-        {/* <div className="button">
-          <button>Read More</button>
-        </div> */}
       </div>
     </section>
   )

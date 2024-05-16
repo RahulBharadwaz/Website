@@ -23,33 +23,33 @@ function App() {
 
   const handleNewsClick = () => {
     setDisplayNews(true);
-    setDisplayFeedback(false); // Close feedback if open
+    setDisplayFeedback(false); 
   };
 
   const handleFeedbackClick = () => {
     setDisplayFeedback(true);
-    setDisplayNews(false); // Close news if open
+    setDisplayNews(false); 
   };
 
   const handleLogoClick = () => {
     setDisplayNews(false);
     setDisplayFeedback(false);
-    setDisplayLogin(false); // Close login if open
-    setDisplaySignup(false); // Close signup if open
+    setDisplayLogin(false); 
+    setDisplaySignup(false); 
   };
 
   const handleLoginClick = () => {
     setDisplayLogin(true);
-    setDisplaySignup(false); // Close signup if open
-    setDisplayNews(false); // Close news if open
-    setDisplayFeedback(false); // Close feedback if open
+    setDisplaySignup(false);
+    setDisplayNews(false); 
+    setDisplayFeedback(false); 
   };
 
   const handleSignupClick = () => {
     setDisplaySignup(true);
-    setDisplayLogin(false); // Close login if open
-    setDisplayNews(false); // Close news if open
-    setDisplayFeedback(false); // Close feedback if open
+    setDisplayLogin(false); 
+    setDisplayNews(false);
+    setDisplayFeedback(false); 
   };
 
   return (

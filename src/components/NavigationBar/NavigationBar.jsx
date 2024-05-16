@@ -39,8 +39,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Get to know more about our business and what we do to serve
-                    our fellow communities.
+                  At Student Hub, we're a dynamic community fostering academic excellence and open communication through curated resources and an engaging anonymous messaging platform. Join us to elevate your learning experience and connect with a supportive network of students
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -55,8 +54,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Our mission at Company is to make a positive impact in the
-                    world through our work.
+                  Our mission is to empower students with knowledge, support, and meaningful connections through innovative resources and a vibrant community.
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -88,13 +86,11 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
             <button>Services</button>
             <div className="serviceDropdownMenu">
               <div className="menuItem">
-                <h3>Service #1</h3>
+                <h3>News</h3>
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Stay updated with the latest happenings in the education world and beyond. Our news section covers a wide range of topics, from educational reforms to global trends, ensuring you're always in the know.
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -105,11 +101,11 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
                 </div>
               </div>
               <div className="menuItem">
-                <h3>Service #2</h3>
+                <h3>Colleges</h3>
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Explore a comprehensive directory of colleges and universities, complete with detailed profiles, admission requirements, and student reviews. Find the perfect institution to further your education and career aspirations.
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -120,11 +116,11 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
                 </div>
               </div>
               <div className="menuItem">
-                <h3>Service #3</h3>
+                <h3>Messaging</h3>
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Lorem ipsum dolor sit amet.
+                  Experience the freedom of open communication with our secure and anonymous messaging platform, designed to foster genuine connections and facilitate honest conversations.
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -135,14 +131,11 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
                 </div>
               </div>
               <div className="menuItem">
-                <h3>Service #4</h3>
+                <h3>Resources</h3>
                 <hr />
                 <div className="dropdownDescription">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
+                  Our website is your hub of knowledge, providing a wide array of resources from news updates to academic materials, enriching every step of your educational journey.
                     <span>
                       <a href="#" style={{ textDecoration: "none" }}>
                         {" "}
@@ -181,7 +174,7 @@ const NavigationBar = ({ onNewsClick, onFeedbackClick, onLoginClick, onSignupCli
           <button>About Us</button>
           <button>Services</button>
           <button>college</button>
-          <button>Blog</button>
+          <button></button>
           <button onClick={onNewsClick}>News</button>
           <button onClick={onFeedbackClick}>Feedback</button>
         </div>
